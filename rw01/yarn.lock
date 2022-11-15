@@ -6024,12 +6024,12 @@ __metadata:
   linkType: hard
 
 "@types/jest@npm:*":
-  version: 29.2.2
-  resolution: "@types/jest@npm:29.2.2"
+  version: 29.2.3
+  resolution: "@types/jest@npm:29.2.3"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: c13bf199d38e41d8f6b28add5c4a8dedfb711080cdf83f58dd6476c365e25456771d4c2484ca05c5d5507cadf3617a1aedfce125fe73f43f229f23ac21f0dfa5
+  checksum: fffd007edfb13f80ca5da3385922fafed807a00d7f3236377d90b27314c811f4ef8c0089ec37e8049ae33fb3ce3b75d9fc32f92261a5782fb4e3920beca86042
   languageName: node
   linkType: hard
 
@@ -6115,9 +6115,9 @@ __metadata:
   linkType: hard
 
 "@types/lodash@npm:^4.14.167":
-  version: 4.14.188
-  resolution: "@types/lodash@npm:4.14.188"
-  checksum: 4debfc61d27544ac71296d5b1128bb86ae78fd38d2f9378ab5e8de6a99eb4403f8d0efc0ac4c055930c4f6014433bc2ce39a2e9245d036aa75e596ff786b16ff
+  version: 4.14.189
+  resolution: "@types/lodash@npm:4.14.189"
+  checksum: af4a0178e52e55682c7fc5b7376eed1e64ce3879800940b1e608e14e97566fcdc9c830bf0db3c19052bfdf17129062fa02044ed4b8a30381fe16384de6ca307e
   languageName: node
   linkType: hard
 
@@ -19980,16 +19980,16 @@ __metadata:
   linkType: hard
 
 "regexpu-core@npm:^5.1.0":
-  version: 5.2.1
-  resolution: "regexpu-core@npm:5.2.1"
+  version: 5.2.2
+  resolution: "regexpu-core@npm:5.2.2"
   dependencies:
     regenerate: ^1.4.2
     regenerate-unicode-properties: ^10.1.0
     regjsgen: ^0.7.1
     regjsparser: ^0.9.1
     unicode-match-property-ecmascript: ^2.0.0
-    unicode-match-property-value-ecmascript: ^2.0.0
-  checksum: 6bbad97524fad1bf9ded80cf3b2f3ebc6aac0b56ac857a69ba15728ae7948800f79da3a5e946924365e241fcfaf90984861567d25ef2887b1905059531b490f0
+    unicode-match-property-value-ecmascript: ^2.1.0
+  checksum: 1d025e2144ee7207db424125a81f5989bd337f56cddc23c0c83c1051679eee33d8c65c0e1e23fa494c2d8c9f0b19c47df0315a924445ad40e733c8aad4286f83
   languageName: node
   linkType: hard
 
@@ -22736,10 +22736,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unicode-match-property-value-ecmascript@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "unicode-match-property-value-ecmascript@npm:2.0.0"
-  checksum: 01de52b5ab875a695e0ff7b87671197e39dcca497ef3c11f1c04d958933352a91d56c280e3908a76a1a0468d37d0227e5450a7956073591ce157d52603b45953
+"unicode-match-property-value-ecmascript@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "unicode-match-property-value-ecmascript@npm:2.1.0"
+  checksum: f5b9499b9e0ffdc6027b744d528f17ec27dd7c15da03254ed06851feec47e0531f20d410910c8a49af4a6a190f4978413794c8d75ce112950b56d583b5d5c7f2
   languageName: node
   linkType: hard
 
