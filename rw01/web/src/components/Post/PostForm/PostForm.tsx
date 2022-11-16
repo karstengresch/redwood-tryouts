@@ -1,14 +1,10 @@
 import {
-  Form,
-  FormError,
-  FieldError,
-  Label,
-  TextField,
-  Submit,
+  FieldError, Form,
+  FormError, Label, Submit, TextField
 } from '@redwoodjs/forms'
 
-import type { EditPostById, UpdatePostInput } from 'types/graphql'
 import type { RWGqlError } from '@redwoodjs/forms'
+import type { EditPostById, UpdatePostInput } from 'types/graphql'
 
 
 
@@ -24,13 +20,13 @@ interface PostFormProps {
 
 const PostForm = (props: PostFormProps) => {
   const onSubmit = (data: FormPost) => {
-  
-    
-    
-  
-    
-    
-  
+
+
+
+
+
+
+
     props.onSave(data, props?.post?.id)
   }
 
@@ -43,7 +39,7 @@ const PostForm = (props: PostFormProps) => {
           titleClassName="rw-form-error-title"
           listClassName="rw-form-error-list"
         />
-      
+
         <Label
           name="title"
           className="rw-label"
@@ -51,7 +47,7 @@ const PostForm = (props: PostFormProps) => {
         >
           Title
         </Label>
-        
+
           <TextField
             name="title"
             defaultValue={props.post?.title}
@@ -59,7 +55,7 @@ const PostForm = (props: PostFormProps) => {
             errorClassName="rw-input rw-input-error"
             validation={{ required: true }}
           />
-        
+
 
         <FieldError name="title" className="rw-field-error" />
 
@@ -70,7 +66,7 @@ const PostForm = (props: PostFormProps) => {
         >
           Body
         </Label>
-        
+
           <TextField
             name="body"
             defaultValue={props.post?.body}
@@ -78,7 +74,7 @@ const PostForm = (props: PostFormProps) => {
             errorClassName="rw-input rw-input-error"
             validation={{ required: true }}
           />
-        
+
 
         <FieldError name="body" className="rw-field-error" />
 
